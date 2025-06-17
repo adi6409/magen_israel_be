@@ -25,7 +25,7 @@ npm install
 npm run start
 ```
 
-The server will run on [http://localhost:3000](http://localhost:3000) by default.
+The server will run on [http://localhost:3939](http://localhost:3939) by default.
 
 ### Environment Variables
 - Configure Redis by editing the `AlertStoreService` constructor if needed.
@@ -39,7 +39,7 @@ Returns a list of all alert zones (cities/areas).
 
 **Example:**
 ```
-curl http://localhost:3000/zones
+curl http://localhost:3939/zones
 ```
 
 ### WebSocket `/`
